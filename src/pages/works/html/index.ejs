@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[3] %>">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[2] %>">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      document.body.innerHTML = '${require("html/loading.html")}';
+    </script>
+    <iframe class="js-cssloadlistener cssloadlistener cssloadlistener-main cssloadlistener-skills cssloadlistener-works" tabindex="-1">
+    </iframe>
+    <div class="page works-page">
+      <div class="fixed-top-nav fixed-top-nav--works">
+        <nav class="fixed-top-nav__nav js-works-top-nav">
+          <ul class="fixed-top-nav__links-list">
+            <li>
+              <a href="/index.html" class="fixed-top-nav__link js:inner-link">MAIN</a>
+            </li>
+            <li>
+              <a href="/skills.html" class="fixed-top-nav__link js:inner-link">SKILLS</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <article class="work">
+        <h2 class="work__heading js-work-heading">Site for visual merchandising agency VMGuide</h2>
+        <div class="work__divided-img js-work-img">
+          <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]-->
+            <source
+              srcset="
+                ${require('../img/vmguide/desktop-xsmall.png')} 1000w,
+                ${require('../img/vmguide/desktop-small.png')} 1500w,
+                ${require('../img/vmguide/desktop-medium.png')} 2000w,
+                ${require('../img/vmguide/desktop-large.png')} 2500w
+              "
+              sizes="50vw"
+              media="(min-width: 46.875em)"
+            >
+            <source
+              srcset="
+                ${require('../img/vmguide/mobile-xsmall.png')} 500w,
+                ${require('../img/vmguide/mobile-small.png')} 1000w,
+                ${require('../img/vmguide/mobile-medium.png')} 1500w,
+                ${require('../img/vmguide/mobile-large.png')} 2000w
+              "
+              sizes="100vw"
+            >
+            <!--[if IE 9]></video><![endif]-->
+            <img class="work__img" alt="VMGuide site main page"/>
+          </picture>
+          <div class="work__img-separate-bg">
+          </div>
+        </div>
+        <p class="work__description js-work-description">
+          <a href="http://www.vmguide.ru">http://vmguide.ru/</a>
+        </p>
+      </article>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.js[0] %>" charset="utf-8"></script>
+  </body>
+</html>

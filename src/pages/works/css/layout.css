@@ -1,0 +1,22 @@
+@media (min-width: 46.875em) {
+  .works-page {
+    height: 100%;
+  }
+
+  .fixed-top-nav--works {
+    overflow: hidden;
+    max-width: 2560px;
+    margin: 0;
+  }
+
+  .fixed-top-nav--works .fixed-top-nav__nav {
+    max-width: 2560px;
+    left: 0;
+    z-index: 101;
+  }
+
+  .fixed-top-nav--works .fixed-top-nav__nav:before,
+  .fixed-top-nav--works .fixed-top-nav__nav:after {
+    content: none;
+  }
+}

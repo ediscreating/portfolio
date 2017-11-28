@@ -1,0 +1,16 @@
+.progress {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.progress--high {
+  background-color: #22d168;
+}
+
+.progress--medium {
+  background-color: #d8a927;
+}
+
+.progress--low {
+  background-color: #dd0b34;
+}

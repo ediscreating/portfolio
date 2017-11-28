@@ -1,0 +1,96 @@
+.skills-overview-bg {
+  height: 285px;
+  width: 100%;
+  margin-top: -3em;
+  background-image: url(../img/skills-bg.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+@media (min-width: 25em) {
+  .skills-overview-bg {
+    margin-top: -1em;
+  }
+}
+
+@media (min-width: 28.125em) {
+  .skills-overview-bg {
+    background-image: url(../img/skills-bg-small.png);
+    margin-top: -10em;
+    height: 475px;
+  }
+}
+
+@media (min-width: 31.25em) {
+  .skills-overview-bg {
+    margin-top: -5em;
+  }
+}
+
+@media (min-width: 40.625em) {
+  .skills-overview-bg {
+    margin-top: -1em;
+  }
+}
+
+@media (min-width: 46.875em) {
+  .skills-overview-bg-wrapper:after {
+    content: '';
+    display: block;
+    height: 10000px;
+    width: 100%;
+    background-color: #162147;
+  }
+
+  .skills-overview-bg {
+    height: 285px;
+    background-image: url(../img/skills-bg.png);
+  }
+}
+
+@media (min-width: 56.25em) {
+  .skills-overview-bg {
+    height: 475px;
+    margin-top: -7em;
+    background-image: url(../img/skills-bg-small.png);
+  }
+}
+
+@media (min-width: 68.75em) {
+  .skills-overview-bg {
+    margin-top: -3em;
+  }
+}
+
+@media (min-width: 81.25em) {
+  .skills-overview-bg {
+    margin-top: -1em;
+  }
+}
+
+@media (min-width: 93.75em) {
+  .skills-overview-bg {
+    height: 810px;
+    margin-top: -10em;
+    background-image: url(../img/skills-bg-large.png);
+  }
+}
+
+@media (min-width: 112.5em) {
+  .skills-overview-bg {
+    margin-top: -6em;
+  }
+}
+
+@media (min-width: 125em) {
+  .skills-overview-bg {
+    margin-top: -3em;
+  }
+}
+
+@media (min-width: 140.625em) {
+  .skills-overview-bg {
+    margin-top: 0em;
+  }
+}

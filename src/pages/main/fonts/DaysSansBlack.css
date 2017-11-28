@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DaysSansBlack';
+    src: url('fonts/DaysSansBlack.eot');
+    src: url('fonts/DaysSansBlack.eot') format('embedded-opentype'),
+         url('fonts/DaysSansBlack.woff2') format('woff2'),
+         url('fonts/DaysSansBlack.woff') format('woff'),
+         url('fonts/DaysSansBlack.ttf') format('truetype'),
+         url('fonts/DaysSansBlack.svg#DaysSansBlack') format('svg');
+}

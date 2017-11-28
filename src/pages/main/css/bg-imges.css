@@ -1,0 +1,111 @@
+html.no-js .frontend-img img,
+html.no-js .webdesign-img img {
+  display: none;
+}
+
+html.no-js .frontend-img noscript img,
+html.no-js .webdesign-img noscript img {
+  display: block;
+}
+
+.frontend-img img,
+.webdesign-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.frontend-img,
+.webdesign-img {
+  position: absolute;
+}
+
+.frontend-img {
+  width: 13em; height: 8em;
+  top: 1em; left: 1em;
+}
+
+.webdesign-img {
+  width: 13em; height: 8em;
+  bottom: 1em; right: 1em;
+}
+
+@media (max-width: 46.875em) and (max-height: 31.25em) {
+  .frontend-img {
+    height: 6em; width: 8em;
+  }
+  .webdesign-img {
+    height: 6em; width: 10em;
+  }
+}
+
+@media (min-width: 60em) {
+  .frontend-img,
+  .webdesign-img {
+    top: 50%;
+    margin-top: -5em;
+  }
+}
+
+@media (min-width: 64.375em) {
+  .frontend-img {
+    left: 2.5em;
+  }
+  .webdesign-img {
+    right: 2.5em;
+  }
+}
+
+@media (min-width: 68.75em) {
+  .frontend-img {
+    left: 0.5em;
+  }
+  .webdesign-img {
+    right: 0.5em;
+  }
+}
+
+@media (min-width: 75em) {
+  .frontend-img {
+    left: 2.5em;
+  }
+  .webdesign-img {
+    right: 2.5em;
+  }
+}
+
+@media (min-width: 84.375em) {
+  .frontend-img {
+    left: 3.5em;
+  }
+  .webdesign-img {
+    right: 3.5em;
+  }
+}
+
+
+@media (min-width: 103.125em) {
+  .frontend-img {
+    left: 7em;
+  }
+  .webdesign-img {
+    right: 7em;
+  }
+}
+
+@media (min-width: 137.5em) {
+  .frontend-img {
+    left: 11em;
+  }
+  .webdesign-img {
+    right: 11em;
+  }
+}
+
+@media (min-width: 150em) {
+  .frontend-img {
+    left: 14em;
+  }
+  .webdesign-img {
+    right: 14em;
+  }
+}

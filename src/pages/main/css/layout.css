@@ -1,0 +1,26 @@
+.main-page {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-wrapper {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  z-index: 100;
+}
+
+.intro-wrapper:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.intro {
+  display: inline-block;
+  vertical-align: middle;
+  color: #243266;
+  text-align: left;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[3] %>">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[0] %>">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      document.body.innerHTML = '${require("html/loading.html")}';
+    </script>
+    <iframe class="js-cssloadlistener cssloadlistener cssloadlistener-main cssloadlistener-skills cssloadlistener-works" tabindex="-1">
+    </iframe>
+    <div class="page main-page">
+      <div class="frontend-img">
+        <img class="js-loadable-resource js-mainpage-img" data-src="${require('../img/front.svg')}" data-srcattr="src" alt="frontend img" />
+        <noscript>
+          <img class="noscript-img" src="${require('../img/front.svg')}" alt="frontend img" />
+        </noscript>
+      </div>
+      <div class="webdesign-img">
+        <img class="js-loadable-resource js-mainpage-img" data-src="${require('../img/webdesign.svg')}" data-srcattr="src" alt="webdesign img" />
+        <noscript>
+          <img class="noscript-img" src="${require('../img/webdesign.svg')}" alt="webdesign img" />
+        </noscript>
+      </div>
+      <div class="intro-wrapper">
+        <div class="intro js-intro">
+          <div class="intro-greeting js-intro-element">
+            Hi! I am Edgar,
+          </div>
+          <div class="intro-employment-dev js-intro-element">
+            <span class="stripe-before js-stripe-anim"></span>
+            FRONTEND DEVELOPER
+            <span class="stripe-after js-stripe-anim"></span>
+          </div>
+          <div class="relative">
+            <div class="inline-block js-intro-element">
+              and <span class="intro-employment-designer">WEB DESIGNER</span>
+            </div>
+            <svg class="intro-circles js-anim-circles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 8" fill="#27A3B7">
+          		<circle cx="4" cy="4" r="4"/>
+          		<circle cx="25" cy="4" r="4"/>
+          		<circle cx="46" cy="4" r="4"/>
+          		<circle cx="67" cy="4" r="4"/>
+          		<circle cx="88" cy="4" r="4"/>
+          		<circle cx="109" cy="4" r="4"/>
+          		<circle cx="130" cy="4" r="4"/>
+          		<circle cx="151" cy="4" r="4"/>
+            </svg>
+          </div>
+          <div class="intro-beforelinks js-intro-element">MY</div>
+          <div class="intro-links">
+            <div class="js-intro-element">
+              <a href="/skills.html" class="js:inner-link">SKILLS</a>
+            </div>
+            <div class="js-intro-element">
+              <a href="/works.html" class="js:inner-link">WORKS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.js[0] %>" charset="utf-8"></script>
+  </body>
+</html>

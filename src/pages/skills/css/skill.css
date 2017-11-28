@@ -1,0 +1,49 @@
+.skill {
+  overflow: hidden;
+  max-width: 30em;
+  margin: 0 auto;
+  border-bottom: 3px solid #0f1a33;
+}
+
+.skill__intro {
+  padding: 2em;
+}
+
+.skill__name {
+  display: block;
+  text-align: center;
+  color: #243266;
+  margin: 0 0 1em;
+  font-size: 1.777em;
+}
+
+.skill__info {
+  color: #2c3e70;
+}
+
+.skill__level {
+  width: 8em;
+  height: 0.33em;
+  background-color: #0a1226;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+@media (min-width: 31.25em) and (max-width: 46.875em), (min-width: 59.375em) {
+  .skill__intro {
+    position: relative;
+    padding: 2em;
+  }
+
+  .skill__name {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .skill__level {
+    position: absolute;
+    top: 50%;
+    right: 2em;
+    margin-top: -0.165em;
+  }
+}

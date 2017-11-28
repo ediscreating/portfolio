@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'DaysSans';
+    font-style: normal;
+    src: url('../fonts/days/DaysSansBlack.woff2') format('woff2'),
+         url('../fonts/days/DaysSansBlack.woff') format('woff'),
+         url('../fonts/days/DaysSansBlack.ttf') format('truetype'),
+         url('../fonts/days/DaysSansBlack.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Certege';
+    font-style: normal;
+    src: url('../fonts/certege/Certege.woff2') format('woff2'),
+         url('../fonts/certege/Certege.woff') format('woff'),
+         url('../fonts/certege/Certege.ttf') format('truetype'),
+         url('../fonts/certege/Certege.eot') format('embedded-opentype');
+}

@@ -1,0 +1,18 @@
+.errorview {
+  display: table;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  background-color: #11193d;
+  color: #243266;
+}
+
+.errorview__msg {
+  display: table-cell;
+  padding: 1em;
+  vertical-align: middle;
+  font-size: 1.333em;
+}

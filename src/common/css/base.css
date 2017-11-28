@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 375px;
+  min-width: 290px;
+}
+
+body {
+  position: relative;
+  background-color: #11193d;
+  margin: 0 auto;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main  {
+  display: block;
+}
+
+p {
+  max-width: 26em;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+@media (max-height: 375px) {
+  body {
+    min-height: 375px;
+  }
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Certege';
+    src: url('fonts/Certege.eot');
+    src: url('fonts/Certege.eot') format('embedded-opentype'),
+         url('fonts/Certege.woff2') format('woff2'),
+         url('fonts/Certege.woff') format('woff'),
+         url('fonts/Certege.ttf') format('truetype'),
+         url('fonts/Certege.svg#Certege') format('svg');
+}

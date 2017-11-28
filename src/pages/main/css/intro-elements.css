@@ -1,0 +1,85 @@
+.intro-greeting {
+  font-size: 1.2em;
+}
+
+.intro-employment-dev {
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: 'Dayssans', 'Arial Black', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #d80e47;
+}
+
+.stripe-before,
+.stripe-after {
+  display: block;
+  position: absolute;
+  top: 100%;
+  margin-top: -0.2em;
+  width: 1.1em;
+  height: 0.16em;
+  border-radius: 5px;
+  background: #d80e47;
+}
+
+.stripe-before {
+  left: 0;
+}
+
+.stripe-after {
+  right: 0;
+}
+
+.intro-employment-designer {
+  color: #27A3B7;
+  font-family: 'Certege', Impact, cursive;
+  font-size: 1.39em;
+}
+
+.intro-circles {
+  height: 0.4em;
+  width: 7.5em;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.2em;
+  margin-left: 0.75em;
+}
+
+.intro-beforelinks {
+  display: inline-block;
+  font-size: 7em;
+  line-height: 0.65;
+}
+
+.intro-links {
+  float: right;
+  font-size: 2.69em;
+  line-height: 0.8;
+}
+
+.intro-links a {
+  display: block;
+  color: #9ab3cc;
+  text-decoration: none;
+}
+
+.intro-links a:first-child {
+  margin-bottom: 0.093em;
+}
+
+@media (min-width: 21.6em) {
+  .intro-employment-dev .stripe-before,
+  .intro-employment-dev .stripe-after {
+    top: 50%;
+    margin-top: -0.08em;
+  }
+
+  .intro-employment-dev .stripe-before {
+    left: -1.5em;
+  }
+
+  .intro-employment-dev .stripe-after {
+    right: -1.5em;
+  }
+}

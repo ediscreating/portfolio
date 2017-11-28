@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[3] %>">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[1] %>">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      document.body.innerHTML = '${require("html/loading.html")}';
+    </script>
+    <iframe class="js-cssloadlistener cssloadlistener cssloadlistener-main cssloadlistener-skills cssloadlistener-works" tabindex="-1">
+    </iframe>
+    <div class="page">
+      <div class="fixed-top-nav fixed-top-nav--skills">
+        <nav class="fixed-top-nav__nav js-animate-topnav js-anim-position-first">
+          <ul class="fixed-top-nav__links-list">
+            <li>
+              <a href="/index.html" class="fixed-top-nav__link js:inner-link">MAIN</a>
+            </li>
+            <li>
+              <a href="/works.html" class="fixed-top-nav__link js:inner-link">WORKS</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="skills-content-wrapper">
+        <div class="skills-overview">
+            <p class="js-animate-skillsoverview js-anim-position-2">
+              Development world is constantly changing, new technologies and trends are emerging.
+              As a developer, I’m always trying to keep up with innovations. One of my main features is
+              getting new knowledge promptly when it is required to complete particular tasks. Here you can find
+              some of my skills which l’m always working on.
+            </p>
+            <div class="skills-overview-bg-wrapper js-animate-skillsoverviewbg js-anim-position-last">
+              <div class="skills-overview-bg"></div>
+            </div>
+        </div>
+        <div class="skills-list js-animate-skillslist js-anim-position-3">
+          <div class="skill">
+            <div class="skill__intro">
+              <span class="skill__name js-animate-skillname js-anim-position-4">HTML</span>
+              <div class="skill__level">
+                <div class="progress progress--high js-animate-skilllevel js-anim-position-5" style="width: 90%;">
+                </div>
+              </div>
+            </div>
+            <p class="skill__info js-animate-skillinfo js-anim-position-6">
+              HTML5, Semantic markup
+            </p>
+          </div>
+          <div class="skill">
+            <div class="skill__intro">
+              <span class="skill__name js-animate-skillname js-anim-position-7">CSS</span>
+              <div class="skill__level">
+                <div class="progress progress--high js-animate-skilllevel js-anim-position-8" style="width: 85%;">
+                </div>
+              </div>
+            </div>
+            <p class="skill__info js-animate-skillinfo js-anim-position-9">
+              CSS3, SASS, CSS methodologies: SMACSS, BEM, OOCSS
+            </p>
+          </div>
+          <div class="skill">
+            <div class="skill__intro">
+              <span class="skill__name js-animate-skillname js-anim-position-10">JS</span>
+              <div class="skill__level">
+                <div class="progress progress--high js-animate-skilllevel js-anim-position-11" style="width: 75%;">
+                </div>
+              </div>
+            </div>
+            <p class="skill__info js-animate-skillinfo js-anim-position-12">
+              ES2015-2017, React, Webpack, Gulp, JQuery. Understanding of JS design patterns.
+            </p>
+          </div>
+          <div class="skill">
+            <div class="skill__intro">
+              <span class="skill__name js-animate-skillname js-anim-position-13">PYTHON</span>
+              <div class="skill__level">
+                <div class="progress progress--medium js-animate-skilllevel js-anim-position-14" style="width: 40%;">
+                </div>
+              </div>
+            </div>
+            <p class="skill__info js-animate-skillinfo js-anim-position-15">
+              Basic understanding of language.
+            </p>
+          </div>
+          <div class="skill">
+            <div class="skill__intro">
+              <span class="skill__name js-animate-skillname js-anim-position-16">PHP</span>
+              <div class="skill__level">
+                <div class="progress progress--low js-animate-skilllevel js-anim-position-17" style="width: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__intro">
+              <span class="skill__name js-animate-skillname js-anim-position-19">AI</span>
+              <div class="skill__level">
+                <div class="progress progress--high js-animate-skilllevel js-anim-position-20" style="width: 80%;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__intro">
+              <span class="skill__name js-animate-skillname js-anim-position-22">PS</span>
+              <div class="skill__level">
+                <div class="progress progress--medium js-animate-skilllevel js-anim-position-23" style="width: 60%;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__intro">
+              <span class="skill__name js-animate-skillname js-anim-position-25">AE</span>
+              <div class="skill__level">
+                <div class="progress progress--low js-animate-skilllevel js-anim-position-26" style="width: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.js[0] %>" charset="utf-8"></script>
+  </body>
+</html>
